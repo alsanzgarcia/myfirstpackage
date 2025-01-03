@@ -6,7 +6,7 @@
 #' kepted.
 #'
 #' @param infile Path to the input file. Give full path
-#' @return A matrix of the infile
+#' @return A matrix of the infile. Nothing else
 #' @export
 load_mat <- function(infile){
   in.dt <- data.table::fread(infile, header = TRUE)
