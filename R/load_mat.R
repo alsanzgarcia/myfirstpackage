@@ -5,7 +5,7 @@
 #' Any rows with duplicated row names will be dropped with the first one being
 #' kepted.
 #'
-#' @param infile Path to the input file
+#' @param infile Path to the input file. Give full path
 #' @return A matrix of the infile
 #' @export
 load_mat <- function(infile){
